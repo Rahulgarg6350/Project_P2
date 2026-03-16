@@ -299,7 +299,7 @@ Analyzes **holiday events and their effect on sales performance**.
 
 Analyzes **customer transaction activity and its relationship with sales performance**.
 
-![Customer Activity Dashboard](Images/Customer Activity Analysis Dataset.png)
+![Customer Activity Dashboard](Images/Customer Activity Analysis Dataset.jpg)
 
 ---
 
