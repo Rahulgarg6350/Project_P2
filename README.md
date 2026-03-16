@@ -291,7 +291,7 @@ Evaluates how **promotions influence total sales performance**.
 
 Analyzes **holiday events and their effect on sales performance**.
 
-![Holiday Impact Dashboard](images/holiday_dashboard.png)
+![Holiday Impact Dashboard](Images/Holiday Sales Pattern Dataset.jpg)
 
 ---
 
