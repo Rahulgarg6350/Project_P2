@@ -283,7 +283,7 @@ Analyzes **sales distribution across product families** to identify high-perform
 
 Evaluates how **promotions influence total sales performance**.
 
-![Promotion Impact Dashboard](images/promotion_dashboard.png)
+![Promotion Impact Dashboard](Images/Promotion Impact Analysis Dataset.jpg)
 
 ---
 
