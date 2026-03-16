@@ -259,7 +259,7 @@ This section contains **dashboards generated from the analytics (Gold layer) dat
 
 Analyzes store-level performance across different store IDs, cities, and states.
 
-![Store Performance Dashboard](Images/Top Performing Stores.jpg)
+![Store Performance Dashboard](Images/Top_Performing_Stores.jpg)
 
 ---
 
@@ -267,7 +267,7 @@ Analyzes store-level performance across different store IDs, cities, and states.
 
 Shows time-based sales patterns including **daily, weekly, and quarterly trends**.
 
-![Sales Trends Dashboard](Images/Sales Trend Analysis dataset.jpg)
+![Sales Trends Dashboard](Images/Sales_Trend_Analysis_dataset.jpg)
 
 ---
 
@@ -275,7 +275,7 @@ Shows time-based sales patterns including **daily, weekly, and quarterly trends*
 
 Analyzes **sales distribution across product families** to identify high-performing categories.
 
-![Product Category Dashboard](Images/Product Family Sales.jpg)
+![Product Category Dashboard](Images/Product_Family_Sales.jpg)
 
 ---
 
@@ -283,7 +283,7 @@ Analyzes **sales distribution across product families** to identify high-perform
 
 Evaluates how **promotions influence total sales performance**.
 
-![Promotion Impact Dashboard](Images/Promotion Impact Analysis Dataset.jpg)
+![Promotion Impact Dashboard](Images/Promotion_Impact_Analysis_Dataset.jpg)
 
 ---
 
@@ -291,7 +291,7 @@ Evaluates how **promotions influence total sales performance**.
 
 Analyzes **holiday events and their effect on sales performance**.
 
-![Holiday Impact Dashboard](Images/Holiday Sales Pattern Dataset.jpg)
+![Holiday Impact Dashboard](Images/Holiday_Sales_Pattern_Dataset.jpg)
 
 ---
 
@@ -299,7 +299,7 @@ Analyzes **holiday events and their effect on sales performance**.
 
 Analyzes **customer transaction activity and its relationship with sales performance**.
 
-![Customer Activity Dashboard](Images/Customer Activity Analysis Dataset.jpg)
+![Customer Activity Dashboard](Images/Customer_Activity_Analysis_Dataset.jpg)
 
 ---
 
