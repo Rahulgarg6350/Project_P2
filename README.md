@@ -14,6 +14,12 @@ The final output enables **sales forecasting and retail analytics** by generatin
 - Store performance insights
 - Customer activity insights
 
+## Objective
+* Build a scalable end-to-end ETL pipeline for retail sales data using modern data engineering tools.
+* Transform raw datasets into structured, analytics-ready formats using Medallion Architecture (Bronze, Silver, Gold).
+* Generate business insights such as sales trends, promotion impact, and store performance.
+* Enable data-driven decision making and support future sales forecasting models.
+
 ---
 
 
@@ -44,11 +50,11 @@ The pipeline integrates **AWS services, Databricks processing, and DBT analytics
 ### End-to-End System Architecture
 
 <p align="center">
-  <img src="Images/architecture_diagram.png" width="1000">
+  <img src="Dashboard/images/architecture_diagram.png" alt="Architecture Diagram" style="width:100%; max-width:800px; height:400px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
 </p>
 ---
 
-# Medallion Architecture Layers
+# ETL Pipeline Design (Medallion Architecture Layers)
 
 ## Bronze Layer (Raw Data)
 
@@ -102,6 +108,9 @@ processed.sales_cleaned
 
 ## Gold Layer (Analytics Data)
 
+### Star Schema
+<img width="1000" height="800" alt="ChatGPT Image Mar 18, 2026, 03_48_41 PM" src="https://github.com/user-attachments/assets/ff7f9675-0b47-4ff5-a19b-6eaa6ec6185f" />
+
 ### Purpose
 
 Generate **business-ready datasets for analytics and forecasting**.
@@ -139,6 +148,10 @@ Task 3: Gold Pipeline
 
 Pipelines run on a **daily schedule** for automated data processing.
 
+### Alerts
+
+* Integrated Slack alerts in **Apache Airflow DAG** to automatically notify on task failures with details like DAG ID, task ID, execution time, and log links.
+* Configured success notifications to send pipeline completion status and runtime metrics to Slack for real-time monitoring.
 ---
 
 # Data Quality Checks
@@ -161,26 +174,24 @@ Alerts and logs are monitored using:
 # Project Folder Structure
 
 ```
-grocery-sales-etl
+grocery-sales-etl-P2_Databricks
 │
-├── ingestion
-│   └── bronze_ingestion.py
+├── Datasets
+│ └── raw_data
 │
-├── transformations
-│   └── silver_transformation.py
+├── Development
+│ ├── Bronze
+│ ├── Silver
+│ └── Gold
+│ └── DAG      
 │
-├── analytics
-│   └── gold_features.py
+├── Testing
+│ └── data_quality
 │
-├── utils
-│   └── data_validation.py
+├── Dashboard
+│ ├── My_Dashboard.pdf
+│ └── images
 │
-├── configs
-│
-├── workflows
-│   └── main_pipeline.py
-│
-├── requirements.txt
 └── README.md
 ```
 
@@ -233,6 +244,7 @@ pip install -r requirements.txt
 
 ---
 
+
 # Running the Pipeline
 
 Run the ETL pipeline locally:
@@ -259,7 +271,7 @@ This section contains **dashboards generated from the analytics (Gold layer) dat
 
 Analyzes store-level performance across different store IDs, cities, and states.
 
-![Store Performance Dashboard](Images/Top_Performing_Stores.jpg)
+![Store Performance Dashboard](Dashboard/images/store_performance_dashboard.png)
 
 ---
 
@@ -267,7 +279,7 @@ Analyzes store-level performance across different store IDs, cities, and states.
 
 Shows time-based sales patterns including **daily, weekly, and quarterly trends**.
 
-![Sales Trends Dashboard](Images/Sales_Trend_Analysis_dataset.jpg)
+![Sales Trends Dashboard](Dashboard/Images/sales_trends_dashboard.png)
 
 ---
 
@@ -275,7 +287,7 @@ Shows time-based sales patterns including **daily, weekly, and quarterly trends*
 
 Analyzes **sales distribution across product families** to identify high-performing categories.
 
-![Product Category Dashboard](Images/Product_Family_Sales.jpg)
+![Product Category Dashboard](Dashboard/Images/product_category_dashboard.png)
 
 ---
 
@@ -283,25 +295,22 @@ Analyzes **sales distribution across product families** to identify high-perform
 
 Evaluates how **promotions influence total sales performance**.
 
-![Promotion Impact Dashboard](Images/Promotion_Impact_Analysis_Dataset.jpg)
+![Promotion Impact Dashboard](Dashboard/Images/promotion_dashboard.png)
 
----
 
 ## Holiday Impact Dashboard
 
 Analyzes **holiday events and their effect on sales performance**.
 
-![Holiday Impact Dashboard](Images/Holiday_Sales_Pattern_Dataset.jpg)
+![Holiday Impact Dashboard](Dashboard/Images/holiday_dashboard.png)
 
----
 
 ## Customer Activity Dashboard
 
 Analyzes **customer transaction activity and its relationship with sales performance**.
 
-![Customer Activity Dashboard](Images/Customer_Activity_Analysis_Dataset.jpg)
+![Customer Activity Dashboard](Dashboard/Images/customer_activity_dashboard.png)
 
----
 
 # Business Insights Generated
 
@@ -350,9 +359,9 @@ This project is developed for **educational and research purposes**.
 
 ### Team Members
 
-- Rahul Garg
 - Manoj M D
 - Revanth Sai Arcot
 - Bhaskar Rao Kodimela
+- Rahul Garg
 - Suhas S Chauhan
 
