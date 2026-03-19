@@ -295,7 +295,7 @@ Analyzes **sales distribution across product families** to identify high-perform
 
 Evaluates how **promotions influence total sales performance**.
 
-![Promotion Impact Dashboard](Dashboard/Images/promotion_dashboard.png)
+![Promotion Impact Dashboard](Dashboard/Images/Promotion_Impact_Analysis_Dataset.jpg)
 
 
 ## Holiday Impact Dashboard
