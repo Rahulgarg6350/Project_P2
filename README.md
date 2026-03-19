@@ -271,7 +271,7 @@ This section contains **dashboards generated from the analytics (Gold layer) dat
 
 Analyzes store-level performance across different store IDs, cities, and states.
 
-![Store Performance Dashboard](Dashboard/images/store_performance_dashboard.png)
+![Store Performance Dashboard](Dashboard/images/Top_Performing_Stores.jpg)
 
 ---
 
