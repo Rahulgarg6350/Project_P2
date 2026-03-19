@@ -287,7 +287,7 @@ Shows time-based sales patterns including **daily, weekly, and quarterly trends*
 
 Analyzes **sales distribution across product families** to identify high-performing categories.
 
-![Product Category Dashboard](Dashboard/Images/product_category_dashboard.png)
+![Product Category Dashboard](Dashboard/Images/Product_Family_Sales.jpg)
 
 ---
 
