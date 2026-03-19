@@ -279,7 +279,7 @@ Analyzes store-level performance across different store IDs, cities, and states.
 
 Shows time-based sales patterns including **daily, weekly, and quarterly trends**.
 
-![Sales Trends Dashboard](Dashboard/Images/sales_trends_dashboard.png)
+![Sales Trends Dashboard](Dashboard/Images/Sales_Trend_Analysis_dataset.jpg)
 
 ---
 
