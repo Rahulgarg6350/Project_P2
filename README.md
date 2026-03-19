@@ -50,7 +50,7 @@ The pipeline integrates **AWS services, Databricks processing, and DBT analytics
 ### End-to-End System Architecture
 
 <p align="center">
-  <img src="Dashboard/images/architecture_diagram.png" alt="Architecture Diagram" style="width:100%; max-width:800px; height:400px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
+  <img src="Dashboard/Images/architecture_diagram.png" alt="Architecture Diagram" style="width:100%; max-width:800px; height:400px; object-fit:contain; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);" />
 </p>
 ---
 
